@@ -1,0 +1,56 @@
+[
+    {
+		"scene_name": "config",
+		"front_lux_thresh":510
+		
+    },
+    {
+        "scene_name": "front_light",
+        "scene_config": {
+			"beta": 0.1,
+            "mouth": 0.6,
+			"eye": 0.3,
+			"eyebrow": 0.3,
+			"blend_weight_border": 0.6,
+			"smoothness": 1.0,
+			"blend_weight_eyebrow": 0.8,
+			"blend_weight_eye": 0.8,
+			"blend_weight_mouth": 0.6,
+			"blend_weight_face": 0.7,
+			"blend_weight_hair": 0.7,
+			"blend_weight_jaw": 0.6,
+			"smallface_eyebrow_subblendweight_value": 0.2,
+			"smallface_eyebrow_subblendweight_facesize_threshold": 0,
+			"quality_level": 0,
+			"iso_thres": 20000,
+			"filter_face_by_area_ratio":0,
+			"filter_face_area_ratio":0.6,
+			"extend":"L2c8MyshCyc4Nyw3MCAgMys/CyAlJyM/Cyc4Nyw3MCAgMys/dn90Y25zdi0wMTA8JGducjlxPCE3IC0jCyA6MyA/MWducnIueGV2Py0mIC0LMC0hMCAmDTIyMBomMzY6O2ducnB9ZGl0cC88ITE8DTE7NSExDSE/PTULJCM/ISB2aGJjen14cmA9OywnNx0gNyomNx0nPDcxIWBpdHd6Ym5zdis7OzE2CzY9KCcMIC0mNzFxbmVsYnJ/dGc6PTA+NSkLNCMwMRo2PToMNiogJi0+CyoyNDE2IBomMzY6O2ducm9jenR4cmA9Ozc5My4MMiQ3Nx0xOz0LJi0jCyoyNDE2IBomMzY6O2ducm9jenR4cmA9Ozc5My4MMiQ3NyA8LBokMyYMJiQgOy1xbmVlfHB/dGclJyM/PTEtcHhzL2clJyM/PTEtDTY7JiAncHhzD3V6Z3d/dHR6Ynd/dHZ6a3d/dHV6am5zZWthZ25zZ2tmZ25zZWtkZ25zZWttfmJgenQJL25zdjAnNx07MBo1NiYMOio9ISdxbmVlfmJxITYxDSo3Cy81JR0xOCA6NmBpdHR4cmAmJyALOiYMOCwgN2BpdHR4cmAmJyALOiYMOSohJioMMSEzN2BpdHR4cmAmJyALOiYMOSohJioMJy01NicMNikxPCZxbmVlfmJxITYxDSo3Cys7ITcxCyg7Nic/CyExJiM6OBo7NB01NSYxcHhzZWl0cDcgMRo8Nh09OzYhMB0+OyExPh03MTE1Oy4MOyMLOiM6JmducnN/dGchIScMJzUxMSsyOBomNyEndn90Yz8="
+		}
+    },
+	{
+        "scene_name": "front_dark",
+        "scene_config": {
+			"beta": 0.1,
+			"mouth": 0.6,
+			"eye": 0.3,
+			"eyebrow": 0.3,
+			"blend_weight_border": 0.6,
+			"smoothness": 1.0,
+			"blend_weight_eyebrow": 0.6,
+			"blend_weight_eye": 0.6,
+			"blend_weight_mouth": 0.6,
+			"blend_weight_face": 0.1,
+			"blend_weight_hair": 0.7,
+			"blend_weight_jaw": 0.6,
+			"smallface_eyebrow_subblendweight_value": 0.2,
+			"smallface_eyebrow_subblendweight_facesize_threshold": 0,
+			"quality_level": 0,
+			"iso_thres": 20000,
+			"filter_face_by_area_ratio":0,
+			"filter_face_area_ratio":0.6,
+			"extend":"L2c3MR0xODAmDSQhNSZ2aGJjen14cmA7NSwmDSA/MSswNicnNSw4DSciISQ4DSA/MSswNicnNSw4cHhzZWl0cCo3Nzc7ImBpdD52OiYwJiokDSc9NSc4N2BpdHUpfmJxOSohJioMNiomNichCzU1Nh0hNTE9PWBpdHd6Ym5zdig7JzY7CzY8MyY2CyY4OzIMIiQ4JydxbmVkfHp/dGc6PSsgMRonMS0hMRogOjA2J2ducnB9ZGl0cCw8PTYxDTE6LiALJiohMTZ2aGJrZHV4cmA9Ozc5My4MMiQ3Nx0xOz0LMC0nICo5DS01MjYxJh0hNTE9PWBpdGhkfHN/dGc6PTA+NSkLNCMwMRo2PToMICokDS01MjYxJh0hNTE9PWBpdGhkfHN/dGc6PTA+NSkLNCMwMSc7Kh0jNSELICMnPSp2aGJiend4cmAiISQ4OzYqdn90KWAiISQ4OzYqCzE8ICcgdn90CXJ9YXB4cnN9ZHB4cnF9bXB4cnJ9bGl0Y2xmYWl0YWxhYWl0Y2xjYWl0Y2xqeGVnfHMOKWl0cDcgMRo8Nh0yMCELPC06JyB2aGJieGV2JzE2Cy0wDSgyIxo2Pic9MGducnN/dGchIScMPCELPisnMWducnN/dGchIScMPCELPy0mIC0LNyY0MWducnN/dGchIScMPCELPy0mIC0LISoyMCALMC42OiF2aGJieGV2JzE2Cy0wDSw8JzA2DS88MCA4DSY2ICQ9Ph08MhoyMyE2dn90Y25zdjAnNx07MBo6PTEmNho5PSY2OBowNzYyPSkLPSQMPCQ9IGBpdHR4cmAmJyALITI2Nyw1Ph0hMSYgcHhzZTg="
+		}
+    }
+    
+]

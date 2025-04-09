@@ -1,0 +1,13 @@
+#spencer.chen add for SFDC Calibration TFT-4114
+service vendor.sfdc_param_calibration /vendor/bin/sfdc_param_calibration
+   class core
+   user system
+   group system
+   disabled
+   oneshot
+
+on property:sys.vndsfdc_param_calibration=start
+   start vendor.sfdc_param_calibration
+
+on property:persist.vendor.sfdc.result=*
+  setprop sys.cit.sfdc.result ${persist.vendor.sfdc.result}

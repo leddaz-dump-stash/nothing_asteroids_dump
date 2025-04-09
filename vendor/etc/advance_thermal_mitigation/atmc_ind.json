@@ -1,0 +1,479 @@
+{
+    "version": 1,
+    "scenes_config": [
+        {
+            "scene": "default_scene",
+            "level_configs": [
+                {
+                    "level": 7,
+                    "unit_configs": {
+                        "cpu": 1
+                    }
+                },
+                {
+                    "level": 8,
+                    "unit_configs": {
+                        "cpu": 2
+                    }
+                },
+                {
+                    "level": 9,
+                    "unit_configs": {
+                        "cpu": 3,
+                        "brightness": 5
+                    }
+                },
+                {
+                    "level": 10,
+                    "unit_configs": {
+                        "cpu": 5,
+                        "brightness": 6,
+                        "nr_nsa_disable": 1
+                    }
+                },
+                {
+                    "level": 11,
+                    "unit_configs": {
+                        "cpu": 8,
+                        "brightness": 10,
+                        "bg_killer" : 2
+                    }
+                },
+                {
+                    "level": 12,
+                    "unit_configs": {
+                        "fps": 60
+                    }
+                },
+                {
+                    "level": 13,
+                    "unit_configs": {
+                        "wifi_ap_temperature": 1
+                    }
+                }
+           ]
+        },
+        {
+            "scene": "ntcamera_video_recording",
+            "level_configs": [
+                {
+                    "level": 7,
+                    "unit_configs": {
+                        "cpu": 6,
+                        "cameraBrightness": 200
+                    }
+                },
+                {
+                    "level": 8,
+                    "unit_configs": {
+                        "cpu": 6,
+                        "cameraBrightness": 180
+                    }
+                },
+                {
+                    "level": 9,
+                    "unit_configs": {
+                        "cpu": 7,
+                        "cameraBrightness": 160
+                    }
+                },
+                {
+                    "level": 10,
+                    "unit_configs": {
+                        "cpu": 9,
+                        "cameraBrightness": 125
+                    }
+                },
+                {
+                    "level": 11,
+                    "unit_configs": {
+                        "cpu": 10,
+                        "cameraBrightness": 100
+                    }
+                },
+                {
+                    "level": 12,
+                    "unit_configs": {
+                        "cpu": 12,
+                        "cameraBrightness": 100
+                    }
+                },
+                {
+                    "level": 13,
+                    "unit_configs": {
+                        "cpu": 12,
+                        "cameraBrightness": 100
+                    }
+                },
+                {
+                    "level": 14,
+                    "unit_configs": {
+                        "cpu": 12,
+                        "cameraBrightness": 100,
+                        "disableCamera": 1
+                    }
+                }
+            ]
+        },
+        {
+            "scene": "ntcamera_photo_preview",
+            "level_configs": [
+                {
+                    "level": 7,
+                    "unit_configs": {
+                        "cpu": 2
+                    }
+                },
+                {
+                    "level": 8,
+                    "unit_configs": {
+                        "cpu": 3
+                    }
+                },
+                {
+                    "level": 9,
+                    "unit_configs": {
+                        "cpu": 5
+                    }
+                },
+                {
+                    "level": 10,
+                    "unit_configs": {
+                        "cpu": 8
+                    }
+                },
+                {
+                    "level": 11,
+                    "unit_configs": {
+                        "cpu": 11
+                    }
+                },
+                {
+                    "level": 12,
+                    "unit_configs": {
+                        "cpu": 12
+                    }
+                }
+            ]
+        },
+        {
+            "scene": "ntcamera_video_preview",
+            "level_configs": [
+                {
+                    "level": 7,
+                    "unit_configs": {
+                        "cpu": 2
+                    }
+                },
+                {
+                    "level": 8,
+                    "unit_configs": {
+                        "cpu": 3
+                    }
+                },
+                {
+                    "level": 9,
+                    "unit_configs": {
+                        "cpu": 5
+                    }
+                },
+                {
+                    "level": 10,
+                    "unit_configs": {
+                        "cpu": 8
+                    }
+                },
+                {
+                    "level": 11,
+                    "unit_configs": {
+                        "cpu": 11
+                    }
+                },
+                {
+                    "level": 12,
+                    "unit_configs": {
+                        "cpu": 12
+                    }
+                }
+            ]
+        },
+        {
+            "scene": "ntcamera_bokeh_preview",
+            "level_configs": [
+                {
+                    "level": 7,
+                    "unit_configs": {
+                        "cpu": 2
+                    }
+                },
+                {
+                    "level": 8,
+                    "unit_configs": {
+                        "cpu": 3
+                    }
+                },
+                {
+                    "level": 9,
+                    "unit_configs": {
+                        "cpu": 5
+                    }
+                },
+                {
+                    "level": 10,
+                    "unit_configs": {
+                        "cpu": 8
+                    }
+                },
+                {
+                    "level": 11,
+                    "unit_configs": {
+                        "cpu": 11
+                    }
+                },
+                {
+                    "level": 12,
+                    "unit_configs": {
+                        "cpu": 12
+                    }
+                }
+            ]
+        },
+        {
+            "scene": "nearby",
+            "level_configs": [
+                {
+                    "level": 7,
+                    "unit_configs": {
+                        "brightness": 10
+                    }
+                },
+                {
+                    "level": 9,
+                    "unit_configs": {
+                        "file_speed_limit": 1
+                    }
+                }
+            ]
+        }
+    ],
+    "apps_config": [
+        {
+            "app_list": "com.antutu.ABenchMark-com.andromeda.androbench2",
+            "level_configs": [
+                {
+                    "level": 5,
+                    "unit_configs": {
+                        "cpu": 0
+                    }
+                },
+                {
+                    "level": 10,
+                    "unit_configs": {
+                        "nr_nsa_disable": 0
+                    }
+                },
+                {
+                    "level": 11,
+                    "unit_configs": {
+                        "nr_nsa_disable": 1
+                    }
+                }
+            ]
+        },
+        {
+            "app_list": "com.antutu.benchmark.full-com.primatelabs.geekbench5.corporate-com.primatelabs.geekbench5-com.primatelabs.geekbench4.corporate-com.primatelabs.geekbench6.corporate-com.primatelabs.geekbench6-net.kishonti.gfxbench.v50000.corporate-skynet.cputhrottlingtest-com.futuremark.dmandroid.application",
+            "level_configs": [
+                {
+                    "level": 5,
+                    "unit_configs": {
+                        "cpu": 0
+                    }
+                }
+            ]
+        },
+        {
+            "app_list": "org.zwanoo.android.speedtest.gworld-cn.lezhi.speedtest-com.xiaoli.speedtestpro-com.syezon.lab.networkspeed-com.quickbird.speedtestmaster-org.zwanoo.android.speedtest-com.quickbird.speedtest-com.jie.speed-com.primatelabs.geekbench",
+            "level_configs": [
+                {
+                    "level": 10,
+                    "unit_configs": {
+                        "nr_nsa_disable": 0
+                    }
+                },
+                {
+                    "level": 11,
+                    "unit_configs": {
+                        "nr_nsa_disable": 1
+                    }
+                }
+            ]
+        },
+        {
+            "app_list": "com.instagram.android-com.facebook.mlite-com.whatsApp-com.google.android.apps.tachyon-com.snapchat.android-us.zoom.videomeetings-com.tencent.wemeet.app-com.ss.android.lark-com.microsoft.teams",
+            "level_configs": [
+                {
+                    "level": 4,
+                    "unit_configs": {
+                        "cpu": 2
+                    }
+                },
+                {
+                    "level": 5,
+                    "unit_configs": {
+                        "cpu": 3
+                    }
+                },
+                {
+                    "level": 6,
+                    "unit_configs": {
+                        "cpu": 4
+                    }
+                },
+                {
+                    "level": 7,
+                    "unit_configs": {
+                        "cpu": 7
+                    }
+                },
+                {
+                    "level":10,
+                    "unit_configs":{
+                        "cpu":12,
+                        "gpu": 3
+                    }
+                },
+                {
+                    "level":11,
+                    "unit_configs":{
+                        "gpu": 4
+                    }
+                }
+            ]
+        },
+        {
+            "app_list": "com.gameloft.android.ANMP.GloftA9HM-com.miHoYo.Yuanshen-com.miHoYo.GenshinImpact",
+            "level_configs": [
+                {
+                    "level": 7,
+                    "unit_configs": {
+                        "cpu": 0
+                    }
+                }
+            ]
+        },
+        {
+            "app_list": "com.pubg.imobile-com.tencent.ig",
+            "level_configs": [
+                {
+                    "level": 7,
+                    "unit_configs": {
+                        "cpu": 0
+                    }
+                },
+                {
+                    "level": 9,
+                    "unit_configs": {
+                        "brightness": 7
+                    }
+                },
+                {
+                    "level": 10,
+                    "unit_configs": {
+                        "brightness": 8
+                    }
+                },
+                {
+                    "level": 11,
+                    "unit_configs": {
+                        "brightness": 10
+                    }
+                }
+            ]
+        },
+        {
+            "app_list": "com.google.android.apps.photos",
+            "level_configs": [
+                {
+                    "level": 5,
+                    "unit_configs": {
+                        "brightness": 0
+                    }
+                },
+                {
+                    "level": 11,
+                    "unit_configs": {
+                        "brightness": 5
+                    }
+                }
+            ]
+        },
+        {
+            "app_list": "com.google.android.apps.restore",
+            "level_configs": [
+                {
+                    "level": 7,
+                    "unit_configs": {
+                        "brightness": 10
+                    }
+                },
+                {
+                    "level": 9,
+                    "unit_configs": {
+                        "network_speed_limit": 1
+                    }
+                }
+            ]
+        }
+    ],
+    "complex_config": [
+        {
+            "complex": "game_performance|game",
+            "level_configs": [
+                {
+                    "level": 5,
+                    "unit_configs": {
+                        "cpu": 0
+                    }
+                }
+            ]
+        },
+        {
+            "complex": "com.tencent.ig|charger",
+            "level_configs": [
+                {
+                    "level": 10,
+                    "unit_configs": {
+                        "fps": 60
+                    }
+                }
+            ]
+        },
+        {
+            "complex": "com.pubg.imobile|charger",
+            "level_configs": [
+                {
+                    "level": 10,
+                    "unit_configs": {
+                        "fps": 60
+                    }
+                }
+            ]
+        }
+    ],
+    "buffer_rate_config": [
+        {
+            "app_list": "com.tencent.ig|charger-com.pubg.imobile|charger",
+            "level_configs": {
+                "9":6,
+                "10":8,
+                "11":9
+            }
+        },
+        {
+            "app_list": "com.tencent.ig",
+            "level_configs": {
+                "11":6
+            }
+        }
+    ]
+}

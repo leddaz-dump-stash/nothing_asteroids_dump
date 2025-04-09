@@ -1,0 +1,5 @@
+service vendor.stability-default /vendor/bin/hw/vendor.noth.hardware.stability-service
+    interface aidl vendor.noth.hardware.stability.IStability/default
+    class hal
+    user system
+    group system
