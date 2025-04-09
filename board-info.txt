@@ -1,0 +1,2 @@
+require version-trustzone=TZ.XF.5.28-00268-LANAIAAAAANAZT-1.90503.2
+require version-vendor=1740912971

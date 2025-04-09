@@ -1,0 +1,14 @@
+# qssi_64-user 15 AQ3A.241015.001 2503021856 release-keys
+- manufacturer: nothing
+- platform: volcano
+- codename: Asteroids
+- flavor: qssi_64-user
+- release: 15
+- id: AQ3A.241015.001
+- incremental: 2503021856
+- tags: release-keys
+- fingerprint: Nothing/Asteroids/Asteroids:14/UKQ1.241011.001/2503021856:user/release-keys
+- is_ab: true
+- brand: Nothing
+- branch: qssi_64-user-15-AQ3A.241015.001-2503021856-release-keys
+- repo: nothing_asteroids_dump

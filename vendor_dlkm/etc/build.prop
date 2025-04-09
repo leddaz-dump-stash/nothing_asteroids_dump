@@ -1,0 +1,23 @@
+####################################
+# from generate-common-build-props
+# These properties identify this partition image.
+####################################
+ro.product.vendor_dlkm.brand=Nothing
+ro.product.vendor_dlkm.device=Asteroids
+ro.product.vendor_dlkm.manufacturer=Nothing
+ro.product.vendor_dlkm.model=A059
+ro.product.vendor_dlkm.name=Asteroids
+ro.product.model_for_attestation=
+ro.product.brand_for_attestation=
+ro.product.name_for_attestation=
+ro.vendor_dlkm.build.date=Sun Mar  2 18:56:11 HKT 2025
+ro.vendor_dlkm.build.date.utc=1740912971
+ro.vendor_dlkm.build.fingerprint=Nothing/Asteroids/Asteroids:14/UKQ1.241011.001/2503021856:user/release-keys
+ro.vendor_dlkm.build.id=UKQ1.241011.001
+ro.vendor_dlkm.build.tags=release-keys
+ro.vendor_dlkm.build.type=user
+ro.vendor_dlkm.build.version.incremental=2503021856
+ro.vendor_dlkm.build.version.release=14
+ro.vendor_dlkm.build.version.release_or_codename=14
+ro.vendor_dlkm.build.version.sdk=34
+# end of file
